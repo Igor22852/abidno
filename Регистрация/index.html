@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="../index.html">
+        <svg
+          class="rectangle-39949"
+          width="237"
+          height="59"
+          viewBox="0 0 237 59"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            opacity="0.3"
+            d="M0 29.5C0 13.2076 13.2076 0 29.5 0H207.5C223.792 0 237 13.2076 237 29.5C237 45.7924 223.792 59 207.5 59H29.5C13.2076 59 0 45.7924 0 29.5Z"
+            fill="#000000"
+          />
+        </svg>
+        <div class="div7">На главную</div>
+        </a>
+    <div class="container">
+        <h2>Регистрация</h2>
+        <form id="Form">
+            <div class="form-group">
+                <label for="fullName">ФИО:</label>
+                <input type="text" id="fullName" name="fullName" required>
+                <span class="error" id="fullNameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <span class="error" id="phoneError"></span>
+            </div>
+            <div class="form-group">
+                <label for="login">Логин:</label>
+                <input type="text" id="login" name="login" required>
+                <span class="error" id="loginError"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+                <span class="error" id="passwordError"></span>
+            </div>
+            <button type="submit">Зарегистрироваться</button>
+            <a href="../Вход/index.html">
+                <svg
+                  class="rectangle-39948"
+                  width="406"
+                  height="89"
+                  viewBox="0 0 406 89"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.3"
+                    d="M0 30C0 13.4315 13.4315 0 30 0H376C392.569 0 406 13.4315 406 30V59C406 75.5685 392.569 89 376 89H30C13.4315 89 0 75.5685 0 59V30Z"
+                    fill="#000000"
+                  />
+                </svg>
+                <div class="div6">Вход</div>
+              </a> 
+        </form>
+        <div id="successMessage" class="success"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
